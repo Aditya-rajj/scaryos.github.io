@@ -7,6 +7,18 @@ html{
     scroll-behavior: smooth;
 }
 
+@font-face {
+font-family: heading;
+
+src: url("fonts/Clayborn.ttf")
+}
+
+@font-face {
+font-family: tagline;
+
+src: url("fonts/AlphabetCapsLined.otf")
+}
+
 body {
   font-family: 'Comic Neue', sans-serif;
   background: linear-gradient(135deg, #0f0f3e, #1a1a40);
@@ -32,7 +44,7 @@ body {
 
 .header h1 {
   font-size: 2rem;
-  font-family: 'ClaybornRegular';
+  font-family: heading;
   margin-bottom: 5px;
 	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -43,7 +55,7 @@ body {
   font-size: 1rem;
   margin-bottom: 10px;
   opacity: 0.85;
-  font-family: AlphabetCapsLinedRegular;
+  font-family: tagline;
   
 }
 
