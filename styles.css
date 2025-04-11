@@ -10,13 +10,13 @@ html{
 @font-face {
 font-family: heading;
 
-src: url("fonts/Clayborn.ttf")
+src: url("Clayborn.ttf")
 }
 
 @font-face {
 font-family: tagline;
 
-src: url("fonts/AlphabetCapsLined.otf")
+src: url("AlphabetCapsLined.otf")
 }
 
 body {
